@@ -18,8 +18,8 @@ import seaborn as sns
 
 # In[2]:
 
-get_ipython().magic('matplotlib inline')
-plt.style.use('seaborn-notebook')
+# get_ipython().magic('matplotlib inline')
+# plt.style.use('seaborn-notebook')
 
 
 # In[3]:

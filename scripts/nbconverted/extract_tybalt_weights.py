@@ -31,8 +31,8 @@ sns.set_context('paper', rc={'font.size':8, 'axes.titlesize':10, 'axes.labelsize
 # In[3]:
 
 
-get_ipython().run_line_magic('matplotlib', 'inline')
-plt.style.use('seaborn-notebook')
+# get_ipython().run_line_magic('matplotlib', 'inline')
+# plt.style.use('seaborn-notebook')
 
 
 # Because of the complex architecture involved in encoding the data, we will use the `decoded` weights to describe feature encoding specific activation patterns

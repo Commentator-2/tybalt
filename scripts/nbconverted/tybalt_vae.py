@@ -40,7 +40,7 @@ from keras.utils import plot_model
 from keras_tqdm import TQDMNotebookCallback
 from IPython.display import SVG
 from keras.utils.vis_utils import model_to_dot
-
+from IPython import get_ipython
 
 # In[2]:
 
@@ -52,8 +52,8 @@ tf.__version__
 # In[3]:
 
 
-get_ipython().run_line_magic('matplotlib', 'inline')
-plt.style.use('seaborn-notebook')
+# get_ipython().run_line_magic('matplotlib', 'inline')
+# plt.style.use('seaborn-notebook')
 
 
 # In[4]:
